@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >  
+<suite name="Suvian" verbose="1" >    
+ <test name="Tooltip Test" >
+ 		
+ 		    <classes>
+		       <class name="practice.suvian.in.toolTipTest" />
+		       </classes>
+  </test>
+ </suite>
