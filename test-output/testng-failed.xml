@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="Practice.Suvian.in.chapterCount">
+      <class name="level2.DragText">
         <methods>
-          <include name="tearDown"/>
-          <include name="testTotalChapterCountinBook2"/>
           <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="dragTextTest"/>
         </methods>
-      </class> <!-- Practice.Suvian.in.chapterCount -->
+      </class> <!-- level2.DragText -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
