@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="186008" started-at="2018-03-29T14:41:19Z" finished-at="2018-03-29T14:44:25Z">
+  <suite name="Default suite" duration-ms="8606" started-at="2018-03-30T14:11:08Z" finished-at="2018-03-30T14:11:17Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="186008" started-at="2018-03-29T14:41:19Z" finished-at="2018-03-29T14:44:25Z">
-      <class name="level2.DragText">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:level2.DragText@15d3402]" name="setUp" is-config="true" duration-ms="8509" started-at="2018-03-29T20:11:19Z" finished-at="2018-03-29T20:11:28Z">
+    <test name="Default test" duration-ms="8606" started-at="2018-03-30T14:11:08Z" finished-at="2018-03-30T14:11:17Z">
+      <class name="level2.ReadQuote">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:level2.ReadQuote@4edc67]" name="setUp" is-config="true" duration-ms="8418" started-at="2018-03-30T19:41:08Z" finished-at="2018-03-30T19:41:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="dragTextTest()[pri:0, instance:level2.DragText@15d3402]" name="dragTextTest" duration-ms="177475" started-at="2018-03-29T20:11:28Z" finished-at="2018-03-29T20:14:25Z">
+        <test-method status="PASS" signature="readQuoteTest()[pri:0, instance:level2.ReadQuote@4edc67]" name="readQuoteTest" duration-ms="162" started-at="2018-03-30T19:41:17Z" finished-at="2018-03-30T19:41:17Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- dragTextTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:level2.DragText@15d3402]" name="tearDown" is-config="true" duration-ms="1" started-at="2018-03-29T20:14:25Z" finished-at="2018-03-29T20:14:25Z">
+        </test-method> <!-- readQuoteTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:level2.ReadQuote@4edc67]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-03-30T19:41:17Z" finished-at="2018-03-30T19:41:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- level2.DragText -->
+      </class> <!-- level2.ReadQuote -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
