@@ -47,18 +47,20 @@ public class DragText {
   }
   
   
-/*  @Test(priority=2)
+  @Test(priority=2)
   public void dragTextTestNormal() throws Exception {
 	  
 	 driver.navigate().refresh(); 
 	 Thread.sleep(2000);	  
-	 Actions action=new Actions(driver);	
-	 action.clickAndHold(driver.findElement(By.xpath("//*[@id='drag1']/strong"))).
-	 moveToElement(driver.findElement(By.xpath("//*[@id='div1']"))).release().build().perform();
-	
-	
+	 	
+	// action.clickAndHold(driver.findElement(By.xpath("//*[@id='drag1']/strong"))).
+	// moveToElement(driver.findElement(By.xpath("//*[@id='div1']"))).release().build().perform();
+	WebElement source=driver.findElement(By.xpath("//h5[@id='drag1']/strong"));
+	WebElement destination=driver.findElement(By.xpath("//div[@class='intro-message']/br"));
+	Actions action=new Actions(driver);
+	 action.dragAndDrop(source, destination).build().perform();
 	  
-  }*/
+  }
  
 
   

@@ -1,25 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="8606" started-at="2018-03-30T14:11:08Z" finished-at="2018-03-30T14:11:17Z">
+  <suite name="Default suite" duration-ms="16967" started-at="2018-04-04T14:52:04Z" finished-at="2018-04-04T14:52:21Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="8606" started-at="2018-03-30T14:11:08Z" finished-at="2018-03-30T14:11:17Z">
-      <class name="level2.ReadQuote">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:level2.ReadQuote@4edc67]" name="setUp" is-config="true" duration-ms="8418" started-at="2018-03-30T19:41:08Z" finished-at="2018-03-30T19:41:17Z">
+    <test name="Default test" duration-ms="16967" started-at="2018-04-04T14:52:04Z" finished-at="2018-04-04T14:52:21Z">
+      <class name="levell.Selectoptiondropdown">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:levell.Selectoptiondropdown@4edc67]" name="setUp" is-config="true" duration-ms="13296" started-at="2018-04-04T20:22:04Z" finished-at="2018-04-04T20:22:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="readQuoteTest()[pri:0, instance:level2.ReadQuote@4edc67]" name="readQuoteTest" duration-ms="162" started-at="2018-03-30T19:41:17Z" finished-at="2018-03-30T19:41:17Z">
+        <test-method status="PASS" signature="testSelectOptionAndHandleWindow()[pri:1, instance:levell.Selectoptiondropdown@4edc67]" name="testSelectOptionAndHandleWindow" duration-ms="1857" started-at="2018-04-04T20:22:17Z" finished-at="2018-04-04T20:22:19Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- readQuoteTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:level2.ReadQuote@4edc67]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-03-30T19:41:17Z" finished-at="2018-03-30T19:41:17Z">
+        </test-method> <!-- testSelectOptionAndHandleWindow -->
+        <test-method status="PASS" signature="testSelectOptionAndHandleWindowUsingSet()[pri:2, instance:levell.Selectoptiondropdown@4edc67]" name="testSelectOptionAndHandleWindowUsingSet" duration-ms="1186" started-at="2018-04-04T20:22:19Z" finished-at="2018-04-04T20:22:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSelectOptionAndHandleWindowUsingSet -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:levell.Selectoptiondropdown@4edc67]" name="tearDown" is-config="true" duration-ms="595" started-at="2018-04-04T20:22:20Z" finished-at="2018-04-04T20:22:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- level2.ReadQuote -->
+      </class> <!-- levell.Selectoptiondropdown -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -50,7 +50,9 @@ public class toolTipTest {
 	  System.out.println(ycord);
 	  Actions action=new Actions(driver);
 	  action.moveToElement(link,(xcord+15),ycord).build().perform();
+	  Thread.sleep(3000);
 	  textbox.sendKeys(tooltiptext);
+	  
 	  
 	  
   }

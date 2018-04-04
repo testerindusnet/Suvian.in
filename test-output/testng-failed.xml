@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="level2.ReadQuote">
+      <class name="levell.Selectoptiondropdown">
         <methods>
-          <include name="tearDown"/>
           <include name="setUp"/>
-          <include name="readQuoteTest"/>
+          <include name="tearDown"/>
+          <include name="testSelectOptionFromDrown"/>
         </methods>
-      </class> <!-- level2.ReadQuote -->
+      </class> <!-- levell.Selectoptiondropdown -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
