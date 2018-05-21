@@ -10,6 +10,9 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.Assert;
+import org.testng.ITestResult;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.Test;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.AfterClass;
@@ -26,7 +29,7 @@ public class chapterCount {
 	 driver=new ChromeDriver();
 	 driver.manage().deleteAllCookies();
 	 driver.manage().window().maximize();
-	 driver.manage().timeouts().implicitlyWait(30,TimeUnit.SECONDS);
+	 driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
 	 driver.get("http://suvian.in/selenium/2.6liCount.html");
 	  }
 	
@@ -38,7 +41,14 @@ public class chapterCount {
 		int totalchaptercount=totalchapter.size();		
 		System.out.println(totalchaptercount);
 		totalchaptertextbox.sendKeys(String.valueOf(totalchaptercount));
+			
   }
+	
+	
+	@AfterMethod
+	public void afterMethod(ITestResult result) {
+	  System.out.println("method name:" + result.getMethod().getMethodName());
+	}
 	
 		
 	
@@ -50,6 +60,7 @@ public class chapterCount {
 		int totalbook2chapter=totalchapterinbook2.size();
 		System.out.println(totalbook2chapter);
 		totalchapterbook2textbox.sendKeys(String.valueOf(totalbook2chapter));
+		
   }
 	
 	
@@ -61,7 +72,7 @@ public class chapterCount {
   @AfterClass
   public void tearDown() {
 	  
-	  driver.quit();
+	  //driver.quit();
   }
 
 }
